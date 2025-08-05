@@ -5,7 +5,6 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/my-project/', // Add this line for GitHub Pages deployment
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
